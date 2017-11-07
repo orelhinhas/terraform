@@ -75,7 +75,3 @@ variable "admin_username" {
 variable "admin_password" {
   description = "Specifies the password of the administrator account"
 }
-
-variable "backup" {
-  description = "A boolean value to enable or disable Azure Backup"
-}

@@ -33,8 +33,4 @@ resource "azurerm_virtual_machine" "main" {
     admin_username = "${var.admin_username}"
     admin_password = "${var.admin_password}"
   }
-
-  tags {
-    backup = "${var.backup}"
-  }
 }
