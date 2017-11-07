@@ -12,7 +12,7 @@ ps2: The two "//" is necessary.
 
 **Below an example using some modules at AWS.**
 
-```terraform
+```hcl
 provider "aws" {
   region = "sa-east-1"
 }
