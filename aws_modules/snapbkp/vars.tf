@@ -1,0 +1,10 @@
+variable "iam_role_name" {}
+variable "lambda_function_handler" {}
+variable "lambda_function_role" {}
+variable "cloudwatch_event_target_rule" {}
+variable "cloudwatch_event_target_name" {}
+variable "lambda_function_arn" {}
+variable "lambda_permission_function_name" {}
+variable "lambda_permission_source_arn" {}
+variable "iam_role_id" {}
+variable "s3_bucket" {}

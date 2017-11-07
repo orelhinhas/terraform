@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+
+
+
+joao.lisanti@gw2:~/temp/terraform/aws_modules/vpc$ screen -list
+There is a screen on:
+        13668.pts-1.gw2 (10/18/2017 08:11:02 PM)        (Attached)
+1 Socket in /var/run/screen/S-joao.lisanti.
+
+joao.lisanti@gw2:~/temp/terraform/aws_modules/vpc$ screen -list
+There is a screen on:
+        13668.pts-1.gw2 (10/18/2017 08:11:02 PM)        (Attached)
+1 Socket in /var/run/screen/S-joao.lisanti.
+
+joao.lisanti@gw2:~/temp/terraform/aws_modules/vpc$ screen -list
+There is a screen on:
+        13668.pts-1.gw2 (10/18/2017 08:11:02 PM)        (Multi, attached)
+1 Socket in /var/run/screen/S-joao.lisanti.
+
+joao.lisanti@gw2:~/temp/terraform/aws_modules/vpc$ ta lendo ? ^C
+joao.lisanti@gw2:~/temp/terraform/aws_modules/vpc$ w
+ 20:20:59 up 85 days,  1:58,  4 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+fabiano. pts/0    172.17.68.196    16:22    3:54m  0.06s  0.01s ssh -i cmst.pem ec2-user@34.229.192.61
+joao.ara pts/2    172.17.68.196    14:26   24.00s  0.57s  0.00s sshd: joao.araujo [priv]
+fabiano. pts/3    172.17.68.196    15:52    3:53m  0.13s  0.07s ssh -i cmst.pem ec2-user@34.229.192.61
+joao.lis pts/4    172.17.68.196:S. 20:11    1.00s  0.04s  0.00s w
+joao.lisanti@gw2:~/temp/terraform/aws_modules/vpc$
+
+
+
+
+
