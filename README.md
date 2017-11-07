@@ -6,7 +6,7 @@ If you want to use a github repository as a source use this way:
 <br>
 `source="git::ssh://git@github.com/orelhinhas/terraform.git//aws_modules//name_of_module"`
 
-ps1: If you use Azure, change "//aws_modules//name_of_module" to "//azure_modules/name_of_module"
+ps1: If you use Azure, change "//aws_modules//name_of_module" to "//azure_modules//name_of_module"
 
 ps2: The two "//" is necessary.
 
